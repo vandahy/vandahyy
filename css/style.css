@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+body{
+    font-family: Arial,sans-serif;
+}
+.content{
+    position: relative;
+    /* top: -10px; */
+}
+section{
+    height: 2400px;
+    min-width:100%;
+}
+
+.navbar{
+    background-color: limegreen; 
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+
+}
+.navbar-collapse{
+    display: flex;
+}
+.nav-ul{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    list-style: none;
+}
+
+.nav-li{
+    margin-right: 20px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    font-size: 22px;
+    box-shadow: 0 0px 3px black;
+    padding: 10px ;
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-ul2{
+    display: flex;
+    list-style: none;
+}
+.nav-li2{
+    margin-left: 20px;
+}
+.logo{
+    margin-left: 20px;
+}
+
+.login{
+    background-color: white;
+    color: rgb(34, 138, 208);;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+    margin-right: 20px;
+}
+.login:hover{
+    background-color: rgb(208, 208, 208);
+    transition: all 0.3s ease;
+    border: 1px solid yellow;  
+    font-size: 22px;
+}
+.sign-up{
+    background-color: rgb(34, 138, 208);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+.sign-up:hover{
+    background-color: rgb(32, 111, 163);
+    transition: all 0.3s ease;
+    border: 1px solid yellow;  
+    font-size: 22px;
+}
+
+/* banner */
+.banner{
+    background-image: url('/images/hero-land.jpg');
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+}
+.h1-banner{
+    font-family: "Anton", sans-serif;
+    font-size: 80px;
+    color:white;
+    text-align: center;
+    padding: 140px;
+    font-weight: bold;
+    text-shadow: 0px 3px 15px rgb(0, 255, 0);
+    -webkit-text-stroke: 2px green;
+}
+
+/* danh mục */
+.vip-cilent{
+    justify-content: space-between;
+    padding: 40px 100px;
+    position: relative;
+    /* top: -120px; */
+}
+.boss-1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.manager{
+    border-radius: 10px;
+    box-shadow: 0 0 3px black;
+    margin: 5px;
+}
+.intern{
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 30px 10px;
+}
+.button-b{
+    background-color: rgb(34, 138, 208);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 100px;
+    position: relative;
+    top: 10px;
+    border-radius: 5px;
+}
+.button-b:hover{
+    font-size: 1.25rem;
+    background-color: limegreen;
+    box-shadow: 0 0 5px black;
+    transition: all 0.3s ease;
+}
+.hot-span{
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.hot-span-blue{
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+/* link youtube */
+.grandparent{
+    position: relative;
+    /* top: -200px; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 250px;
+
+}
+.parent{
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+}
+.dahy{
+    position: relative;
+    top: 20px;
+}
+
+.parent2{
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.dahy2{
+    position: relative;
+    top: 20px;
+}
+/* footer */
+footer{
+    background-color: limegreen;
+}
+.div-container{
+    display: flex;
+    color: white;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.mr-beast{
+    margin-left: 20px;
+    font-size: 15px;
+    
+}
+.mr-beast ul{
+    list-style: none;
+    
+}
+.mr-beast ul li{
+    margin-bottom: 10px;
+    padding-right: 50px;
+}
+.mr-beast ul li a{
+    text-decoration: underline;
+    color: white;
+}
+.h3-footer{
+    position: relative;
+    left: 40px;
+}
+.text-center{
+    position: relative;
+}
+.instagram-icon{
+    background-image: url();
+}
